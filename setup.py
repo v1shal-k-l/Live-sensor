@@ -1,11 +1,11 @@
 ## to get info about packages 
 from setuptools import find_packages ,setup
-from typing import List
+from typing import list
 
 
 def get_requirements()->list[str]:
 
-    requirements_list=list[str]=[]
+    requirements_list:list[str]=[]
 
     return requirements_list
 setup(
